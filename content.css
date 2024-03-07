@@ -2,13 +2,20 @@
     background-color: #121111 !important
 }
 
-body {
+body,
+.dropdown-item,
+.submissionsummarytable td {
     color: #fff !important;
     background-color: #121111 !important
 }
 
-.dropdown-item {
-    color: white !important;
+.dropdown-item:hover *,
+.dropdown-item:hover {
+    background-color: #750625 !important;
+}
+
+.submissionstatustable tr:hover {
+    color:  cornflowerblue !important;
 }
 
 .navbar-brand,
@@ -47,8 +54,8 @@ select {
     border: 2rem solid rgb(255, 255, 255) !important;
 }
 
-a:not([class]):focus {
-    outline: none;
-    color: #750625;
-    box-shadow: none;
+a:focus {
+    outline: none !important;
+    color: #750625 !important;
+    box-shadow: none !important;
 }

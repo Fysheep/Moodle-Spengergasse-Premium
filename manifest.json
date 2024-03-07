@@ -3,6 +3,9 @@
   "name": "MoodleEnhancer",
   "version": "1.0",
   "description": "Theme for Moodle Spengergasse and Tools",
+  "icons": {
+    "70": "icons/SPG-Premium.png"
+  },
   "content_scripts": [
     {
       "matches": [
