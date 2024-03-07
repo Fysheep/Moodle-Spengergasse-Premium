@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "MoodleEnhancer",
+  "version": "1.0",
+  "description": "Theme for Moodle Spengergasse and Tools",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://moodle.spengergasse.at/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    },
+    {
+      "matches": [
+        "*://moodle.spengergasse.at/*"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "d.n.kunesch@gmail.com"
+    }
+  }
+}
