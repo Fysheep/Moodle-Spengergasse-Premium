@@ -13,7 +13,8 @@
 body,
 .dropdown-item,
 .submissionsummarytable td,
-.popover-body {
+.popover-body,
+.message-app * {
   color: #fff !important;
   background-color: #121111 !important;
 }
@@ -43,7 +44,8 @@ select {
   border: 1px solid rgb(100, 100, 100) !important;
 }
 
-.icon.navicon:not(.fa), .popover-body .icon {
+.icon.navicon:not(.fa),
+.popover-body .icon {
   background-color: #edeeee !important;
   filter: invert(100%);
 }

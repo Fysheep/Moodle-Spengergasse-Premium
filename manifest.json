@@ -4,7 +4,7 @@
   "version": "1.2",
   "description": "Theme for Moodle Spengergasse and Tools",
   "icons": {
-    "70": "icons/SPG-Premium.png"
+    "128": "icons/SPG-Premium.png"
   },
   "content_scripts": [
     {
