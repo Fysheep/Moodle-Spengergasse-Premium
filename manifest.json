@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "MoodleEnhancer",
-  "version": "1.2",
-  "description": "Theme for Moodle Spengergasse and Tools",
+  "name": "Moodle Pro (HTL Spengergasse)",
+  "version": "1.3",
+  "description": "Moodle Theme for HTL Spengergasse and Moodle Tools (Features)",
   "icons": {
     "128": "icons/SPG-Premium.png"
   },
