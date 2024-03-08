@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "MoodleEnhancer",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Theme for Moodle Spengergasse and Tools",
   "icons": {
     "70": "icons/SPG-Premium.png"
