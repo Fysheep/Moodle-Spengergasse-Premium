@@ -1,21 +1,30 @@
-*:not(.courseicon, .activityicon, .search-icon, .fa-search, .userinitials, td.today *, .icon) {
-    background-color: #121111 !important
+*:not(
+    .courseicon,
+    .activityicon,
+    .search-icon,
+    .fa-search,
+    .userinitials,
+    td.today *,
+    .icon
+  ) {
+  background-color: #121111 !important;
 }
 
 body,
 .dropdown-item,
-.submissionsummarytable td {
-    color: #fff !important;
-    background-color: #121111 !important
+.submissionsummarytable td,
+.popover-body {
+  color: #fff !important;
+  background-color: #121111 !important;
 }
 
 .dropdown-item:hover *,
 .dropdown-item:hover {
-    background-color: #750625 !important;
+  background-color: #750625 !important;
 }
 
 .submissionstatustable tr:hover {
-    color:  cornflowerblue !important;
+  color: cornflowerblue !important;
 }
 
 .navbar-brand,
@@ -24,38 +33,38 @@ body,
 .generaltable,
 input,
 select {
-    color: #fff !important;
-    background-color: #121111 !important
+  color: #fff !important;
+  background-color: #121111 !important;
 }
 
 .card,
 #region-main.region-main-content,
 .btn:not(#message-user-button, .icons-collapse-expand, .btn-link) {
-    border: 1px solid rgb(100, 100, 100) !important;
+  border: 1px solid rgb(100, 100, 100) !important;
 }
 
-.icon.navicon:not(.fa) {
-    background-color: #edeeee !important;
-    filter: invert(100%);
+.icon.navicon:not(.fa), .popover-body .icon {
+  background-color: #edeeee !important;
+  filter: invert(100%);
 }
 
 .text-truncate,
 .progress-text {
-    color: #eee !important;
+  color: #eee !important;
 }
 
 #page {
-    padding-top: 0 !important
+  padding-top: 0 !important;
 }
 
 #logoimage {
-    border-radius: 1rem !important;
-    filter: invert(92.5%) !important;
-    border: 2rem solid rgb(255, 255, 255) !important;
+  border-radius: 1rem !important;
+  filter: invert(92.5%) !important;
+  border: 2rem solid rgb(255, 255, 255) !important;
 }
 
 a:focus {
-    outline: none !important;
-    color: #750625 !important;
-    box-shadow: none !important;
+  outline: none !important;
+  color: #750625 !important;
+  box-shadow: none !important;
 }

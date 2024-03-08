@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "MoodleEnhancer",
   "version": "1.0",
   "description": "Theme for Moodle Spengergasse and Tools",
