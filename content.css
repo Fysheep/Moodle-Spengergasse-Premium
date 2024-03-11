@@ -15,7 +15,8 @@ body,
 .dropdown-item,
 .submissionsummarytable td,
 .popover-body,
-.message-app * {
+.message-app *,
+.comment-area textarea {
   color: #fff !important;
   background-color: #121111 !important;
 }
@@ -46,7 +47,8 @@ select {
 }
 
 .icon.navicon:not(.fa),
-.popover-body .icon {
+.popover-body .icon,
+.calendar_event_course .icon {
   background-color: #edeeee !important;
   filter: invert(100%);
 }
