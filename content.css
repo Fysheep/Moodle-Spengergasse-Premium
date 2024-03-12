@@ -42,8 +42,14 @@ select {
 
 .card,
 #region-main.region-main-content,
-.btn:not(#message-user-button, .icons-collapse-expand, .btn-link) {
+.btn:not(#message-user-button, .icons-collapse-expand, .btn-link),
+.activity-item:not(.activityinline) {
   border: 1px solid rgb(100, 100, 100) !important;
+}
+
+.course-section,
+.navbar.fixed-top {
+  border-bottom: 1px solid rgb(100, 100, 100) !important;
 }
 
 .icon.navicon:not(.fa),
