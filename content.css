@@ -1,4 +1,5 @@
-*:not(
+body:not(.MPdisabled)
+  *:not(
     .courseicon,
     .activityicon,
     .search-icon,
@@ -6,76 +7,93 @@
     .userinitials,
     td.today *,
     .icon,
-    .day *
+    .day *,
+    .trafficlight,
+    .thispageholder
   ) {
   background-color: #121111 !important;
 }
 
-body,
-.dropdown-item,
-.submissionsummarytable td,
-.popover-body,
-.message-app *,
-.comment-area textarea {
+.path-mod-quiz #mod_quiz_navblock .qnbutton .trafficlight {
+  height: unset !important;
+}
+
+.btn.btn-secondary:hover {
+  text-shadow: 0px 0px 1px white;
+}
+
+body:not(.MPdisabled),
+body:not(.MPdisabled) .dropdown-item,
+body:not(.MPdisabled) .submissionsummarytable td,
+body:not(.MPdisabled) .popover-body,
+body:not(.MPdisabled) .message-app *,
+body:not(.MPdisabled) .comment-area textarea,
+body:not(.MPdisabled) .que .formulation,
+body:not(.MPdisabled) .generaltable tbody tr:hover {
   color: #fff !important;
   background-color: #121111 !important;
 }
 
-.dropdown-item:hover *,
-.dropdown-item:hover {
+body:not(.MPdisabled) .dropdown-item:hover *,
+body:not(.MPdisabled) .dropdown-item:hover {
   background-color: #750625 !important;
 }
 
-.generaltable tbody tr:hover {
+body:not(.MPdisabled) .generaltable tbody tr:hover {
   color: cornflowerblue !important;
 }
 
-.navbar-brand,
-.nav-link,
-.btn,
-.generaltable,
-input,
-select {
+body:not(.MPdisabled) .navbar-brand,
+body:not(.MPdisabled) .nav-link,
+body:not(.MPdisabled) .btn,
+body:not(.MPdisabled) .generaltable,
+body:not(.MPdisabled) input,
+body:not(.MPdisabled) select {
   color: #fff !important;
   background-color: #121111 !important;
 }
 
-.card,
-#region-main.region-main-content,
-.btn:not(#message-user-button, .icons-collapse-expand, .btn-link),
-.activity-item:not(.activityinline) {
+body:not(.MPdisabled) .card,
+body:not(.MPdisabled) #region-main.region-main-content,
+body:not(.MPdisabled)
+  .btn:not(#message-user-button, .icons-collapse-expand, .btn-link),
+body:not(.MPdisabled) .activity-item:not(.activityinline) {
   border: 1px solid rgb(100, 100, 100) !important;
 }
 
-.course-section,
-.navbar.fixed-top {
+body:not(.MPdisabled) .course-section,
+body:not(.MPdisabled) .navbar.fixed-top {
   border-bottom: 1px solid rgb(100, 100, 100) !important;
 }
 
-.icon.navicon:not(.fa),
-.popover-body .icon,
-.calendar_event_course .icon {
+body:not(.MPdisabled) .icon.navicon:not(.fa),
+body:not(.MPdisabled) .popover-body .icon,
+body:not(.MPdisabled) .calendar_event_course .icon {
   background-color: #edeeee !important;
   filter: invert(100%);
 }
 
-.text-truncate,
-.progress-text {
+body:not(.MPdisabled) .text-truncate,
+body:not(.MPdisabled) .progress-text {
   color: #eee !important;
 }
 
-#page {
+body:not(.MPdisabled) #page {
   padding-top: 0 !important;
 }
 
-#logoimage {
+body:not(.MPdisabled) #logoimage {
   border-radius: 1rem !important;
   filter: invert(92.5%) !important;
   border: 2rem solid rgb(255, 255, 255) !important;
 }
 
-a:focus {
+body:not(.MPdisabled) a:focus,
+body:not(.MPdisabled) .qtype_multichoice_clearchoice .btn {
   outline: none !important;
   color: #750625 !important;
   box-shadow: none !important;
+}
+body:not(.MPdisabled) .qtype_multichoice_clearchoice .btn {
+  color: #ed1944 !important;
 }

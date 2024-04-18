@@ -1,33 +1,26 @@
 {
   "manifest_version": 3,
   "name": "Moodle++",
-  "version": "1.3.1",
+  "version": "1.3.3",
   "description": "Moodle Theme and Moodle Tools (Features)",
   "icons": {
     "128": "icons/MoodlePrime.png"
   },
   "content_scripts": [
     {
-      "matches": [
-        "*://moodle.*/*"
-      ],
-      "js": [
-        "content.js"
-      ]
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
     },
     {
-      "matches": [
-        "*://moodle.*/*"
-      ],
-      "css": [
-        "content.css"
-      ],
+      "matches": ["<all_urls>"],
+      "css": ["content.css"],
       "run_at": "document_start"
     }
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "daniel.kunesch05@gmail.com"
+      "id": "admin@moodleprospg.com"
     }
   }
 }
