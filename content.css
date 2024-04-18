@@ -14,12 +14,26 @@ body:not(.MPdisabled)
   background-color: #121111 !important;
 }
 
-.path-mod-quiz #mod_quiz_navblock .qnbutton .trafficlight {
+body:not(.MPdisabled)
+  .path-mod-quiz
+  #mod_quiz_navblock
+  .qnbutton
+  .trafficlight {
   height: unset !important;
 }
 
-.btn.btn-secondary:hover {
-  text-shadow: 0px 0px 1px white;
+body:not(.MPdisabled) .btn.btn-secondary:hover {
+  text-shadow: 0px 0px 1px white !important;
+}
+
+body:not(.MPdisabled)
+  section:not(#region-main)
+  .block.block_calendar_month
+  .maincalendar
+  .calendartable.calendarmonth
+  td.clickable:not(.today):hover
+  .day-number-circle {
+  background-color: gray !important;
 }
 
 body:not(.MPdisabled),
