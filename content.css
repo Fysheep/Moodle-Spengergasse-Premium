@@ -33,7 +33,8 @@ body:not(.MPdisabled)
   .calendartable.calendarmonth
   td.clickable:not(.today):hover
   .day-number-circle {
-  background-color: gray !important;
+  background-color: #5ac3d5 !important;
+  color: black !important;
 }
 
 body:not(.MPdisabled),
