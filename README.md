@@ -6,8 +6,4 @@
   + Dark Theme
 
 ### Version 1.4: 
-  + Better Interface
-
-### Version 1.5: 
-  + Automated Features
-  + More Unkown Features
+  + Fixed Darkmode for recent Moodle Update
