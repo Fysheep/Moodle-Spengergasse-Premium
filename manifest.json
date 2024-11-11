@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
   "name": "Vienna HTL Spengergasse Moodle++",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Moodle Dark + Moodle Tools (Features)",
   "icons": {
     "128": "icons/MoodlePrime.png"
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["*://moodle.spengergasse.at/*"],
       "js": ["content.js"],
       "run_at": "document_start"
     },
